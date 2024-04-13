@@ -1,0 +1,61 @@
+<script>
+    // Obtener referencia a los elementos del formulario
+    var usernameInput = document.getElementById("username");
+    var correoInput = document.getElementById("correo");
+    var passwordInput = document.getElementById("password");
+    var confirmPasswordInput = document.getElementById("confirmPassword");
+    var genderSelect = document.getElementById("gender");
+    var termsCheckbox = document.getElementById("terms");
+    var submitButton = document.querySelector('button[type="submit"]');
+    
+    // Agregar eventos de mouse a los elementos del formulario
+    usernameInput.addEventListener("mouseenter", function() {
+      usernameInput.style.transform = "translateY(-3px)";
+    });
+    usernameInput.addEventListener("mouseleave", function() {
+      usernameInput.style.transform = "none";
+    });
+    correoInput.addEventListener("mouseenter", function() {
+      correoInput.style.transform = "translateY(-3px)";
+    });
+    correoInput.addEventListener("mouseleave", function() {
+      correoInput.style.transform = "none";
+    });
+    passwordInput.addEventListener("mouseenter", function() {
+      passwordInput.style.transform = "translateY(-3px)";
+    });
+    passwordInput.addEventListener("mouseleave", function() {
+      passwordInput.style.transform = "none";
+    });
+    confirmPasswordInput.addEventListener("mouseenter", function() {
+      confirmPasswordInput.style.transform = "translateY(-3px)";
+    });
+    confirmPasswordInput.addEventListener("mouseleave", function() {
+      confirmPasswordInput.style.transform = "none";
+    });
+    genderSelect.addEventListener("mouseenter", function() {
+      genderSelect.style.transform = "translateY(-3px)";
+    });
+    genderSelect.addEventListener("mouseleave", function() {
+      genderSelect.style.transform = "none";
+    });
+    
+    termsCheckbox.addEventListener("mouseenter", function() {
+      termsCheckbox.style.transform = "translateY(-3px)";
+    });
+    termsCheckbox.addEventListener("mouseleave", function() {
+      termsCheckbox.style.transform = "none";
+    });
+    
+    // Agregar evento de click al botón de enviar
+    submitButton.addEventListener("click", validateForm);
+
+
+
+
+
+
+
+
+
+
